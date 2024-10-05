@@ -1,0 +1,20 @@
+print(" ")
+print("Ramirez Torres Angel Manuel De 3°W")
+print("-INSTRUCCIONES-")
+print("De esa misma lista que aparezca un mensaje Estoy cursando <materia>, donde <materia> es cada una de las de la lista  .")
+print(" ")
+
+
+# Almacenar las materias en una lista
+materias = [
+    "Pensamiento matemático",  # Materia 1
+    "Español",                 # Materia 2
+    "Inglés",                  # Materia 3
+    "Química",                 # Materia 4
+    "Civismo",                 # Materia 5
+    "Francés"                  # Materia 6
+]
+
+# Desplegar un mensaje para cada materia
+for materia in materias:
+    print(f"Estoy cursando {materia}.")  # Mensaje que indica que se está cursando la materia
