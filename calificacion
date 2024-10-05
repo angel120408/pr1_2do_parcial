@@ -1,0 +1,29 @@
+print(" ")
+print("Ramirez Torres Angel Manuel De 3°W")
+print("-INSTRUCCIONES-")
+print("De esa misma lista que aparezca un mensaje Estoy cursando <materia>, donde <materia> es cada una de las de la lista  .")
+print(" ")
+
+
+# Almacenar las materias en una lista
+materias = [
+    "Pensamiento matemático",  # Materia 1
+    "Español",                 # Materia 2
+    "Inglés",                  # Materia 3
+    "Química",                 # Materia 4
+    "Civismo",                 # Materia 5
+    "Francés"                  # Materia 6
+]
+
+# Inicializar una lista para las calificaciones
+calificaciones = []  # Lista vacía para almacenar calificaciones
+
+# Pedir al usuario la calificación de cada materia
+for materia in materias:  # Recorrer cada materia en la lista
+    calificacion = input(f"Ingresa la calificación para {materia}: ")  # Solicitar calificación
+    calificaciones.append(calificacion)  # Agregar la calificación a la lista
+
+# Desplegar las calificaciones
+print("\nCalificaciones obtenidas:")
+for i in range(len(materias)):  # Recorrer el índice de las materias
+    print(f"En {materias[i]} has obtenido {calificaciones[i]}.")  # Imprimir materia y su calificación
