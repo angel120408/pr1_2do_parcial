@@ -1,0 +1,22 @@
+print("Ramirez Torres Angel Manuel De 3°W")
+print("-INSTRUCCIONES-")
+print("Almacenar en una lista los siguientes precios, 43, 57, 92, 20, 37, 5, 9, y mostrar en pantalla  el menor y el mayor de los precios.")
+print(" ")
+
+
+# Almacenar las materias en una lista
+materias = [
+    "Pensamiento matemático",  # Materia 1
+    "Español",                 # Materia 2
+    "Inglés",                  # Materia 3
+    "Química",                 # Materia 4
+    "Civismo",                 # Materia 5
+    "Francés"                  # Materia 6
+]
+
+# Desplegar las materias en pantalla
+print("Materias del curso:")  # Mensaje inicial antes de mostrar las materias
+
+# Imprimir las materias, cada una en una nueva línea
+print("\n".join(materias))
+
